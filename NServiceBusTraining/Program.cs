@@ -17,4 +17,6 @@ for (int i = 1; i <= 3; i++)
 
 await endpointInstance.Stop();
 
-Console.WriteLine("\nFinished.");
+
+Console.WriteLine("\n\nPress any key to exit.");
+Console.ReadKey(true);
